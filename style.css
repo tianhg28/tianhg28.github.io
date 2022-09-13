@@ -1,0 +1,79 @@
+nav a img {
+    border-radius: 40%;
+}
+
+.scrolled {
+    transition: 500ms;
+}
+
+.bg-primary {
+    background-color: white !important;
+}
+
+.bg-secondary {
+    background-color: #E9ECE6 !important;
+}
+
+.bg {
+    background-color: beige;
+}
+
+.main-bg {
+    background-image: url('images/maing-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo {
+    text-align: center;
+    color: white;
+}
+.main-logo .name-logo {
+    font-size: 6em;
+    text-shadow: 3px 3px 5px black;
+    color: rgb(248, 241, 232);
+}
+
+.main-logo .description {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    line-height: 2.5em;
+}
+
+.connection-links {
+    text-shadow: 1px 1px 1px black;
+    color: rgb(248, 241, 232) !important;
+    text-decoration: none;
+}
+
+.upper-border {
+    border-top: 1px solid white;
+}
+
+.about-content {
+    width: 60%;
+    margin: 100px auto;
+    padding: 50px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-img {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+}
+
+.about-text {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    text-align: center;
+}
