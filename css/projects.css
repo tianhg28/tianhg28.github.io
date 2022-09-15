@@ -1,0 +1,47 @@
+/* Original version without carousel */
+.project-container {
+    width: 600px;
+    background-color: rgb(253, 253, 253);
+    margin: 50px auto;
+    padding: 25px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px 10px rgb(211, 210, 210);
+}
+
+
+.project-h1 {
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgb(0, 118, 148);
+}
+
+.project-img {
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid rgb(206, 212, 218);
+}
+
+.project-description {
+    border-top: 1px solid rgb(200, 215, 238);
+    padding-top: 15px;
+}
+
+/* #carouselExampleIndicators {
+    width: 600px;
+    background-color: rgb(253, 253, 253);
+    margin: 50px auto;
+    padding: 25px 40px;
+    box-shadow: 5px 5px 20px 10px rgb(211, 210, 210);
+} */
+
+/* .carousel-inner {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .carousel-control-next,
+.carousel-indicators,
+.carousel-control-prev  {
+    filter: invert(100%);
+} */
+

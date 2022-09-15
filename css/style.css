@@ -24,7 +24,6 @@ nav a img {
     color: orange
 }
 
-
 .footer-container {
     width: 100%;
     text-align: center;
@@ -33,8 +32,8 @@ nav a img {
     color: #c2c7c7;
 }
 
-/* 
-.bg-primary {
+
+/* .bg-primary {
     background-color: #e2e7e7 !important;
 }
 

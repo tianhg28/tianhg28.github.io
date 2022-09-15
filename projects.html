@@ -8,12 +8,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="css/projects.css"> -->
+  <link rel="stylesheet" href="css/projects.css">
   <title>Gary Guo | Home</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-1 nav-bg">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-1 nav-bg">
     <div class="container-fluid">
       <a class="navbar-brand ms-4 fs-4 fw-semibold" href="home">
         <img src="images/snail.jpg" class="me-2" width="40" height="40" alt="snail">
@@ -28,19 +28,140 @@
           <a class="nav-link fs-5 fw-normal nav-colors" href="home#about">About</a>
           <a class="nav-link fs-5 fw-normal nav-colors" href="resume">Resume</a>
           <a class="nav-link fs-5 fw-normal nav-colors" href="projects">Projects</a>
-          <a class="nav-link fs-5 fw-normal nav-colors" href="contact">Contact</a>
+          <!-- <a class="nav-link fs-5 fw-normal nav-colors" href="contact.html">Contact</a> -->
         </div>
       </div>
     </div>
   </nav>
 
-  <!-- <script src="js/app.js"></script> -->
+  <!-- Add carousel feature in the future -->
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="project-container carousel-item active mx-auto">
+        <h2 class="project-h1 ">YelpCamp</h2>
+        <img src="images/projects/yelpcamp.png" alt="yelpcamp" class="project-img">
+        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fugiat dolorum! Eveniet nemo velit, ad perferendis maxime voluptatem consequatur, animi fugit eum est, error nisi culpa alias voluptates! Numquam, atque?</p>
+        <p class="project-skills"></p>
+        <a href="" class="btn btn-outline-primary btn-sm ">View Code</a>
+      </div>
+      <div class="project-container carousel-item">
+        <h2 class="project-h1 ">333gle</h2>
+        <img src="images/projects/333gle.png" alt="yelpcamp" class="project-img">
+        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fugiat dolorum! Eveniet nemo velit, ad perferendis maxime voluptatem consequatur, animi fugit eum est, error nisi culpa alias voluptates! Numquam, atque?</p>
+        <p class="project-skills"></p>
+        <a href="" class="btn btn-outline-primary btn-sm">View Code</a>
+      </div>
+      <div class="project-container carousel-item">
+        <h2 class="project-h1 ">333gle</h2>
+        <img src="images/projects/333gle.png" alt="yelpcamp" class="project-img">
+        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fugiat dolorum! Eveniet nemo velit, ad perferendis maxime voluptatem consequatur, animi fugit eum est, error nisi culpa alias voluptates! Numquam, atque?</p>
+        <p class="project-skills"></p>
+        <a href="" class="btn btn-outline-primary btn-sm">View Code</a>
+      </div>
+            <div class="project-container carousel-item">
+        <h2 class="project-h1 ">333gle</h2>
+        <img src="images/projects/333gle.png" alt="yelpcamp" class="project-img">
+        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fugiat dolorum! Eveniet nemo velit, ad perferendis maxime voluptatem consequatur, animi fugit eum est, error nisi culpa alias voluptates! Numquam, atque?</p>
+        <p class="project-skills"></p>
+        <a href="" class="btn btn-outline-primary btn-sm">View Code</a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
 
 
-  <!-- <footer class="footer-container">
+  <div class="project-container">
+    <h2 class="project-h1 ">YelpCamp</h2>
+    <img src="images/projects/yelpcamp.png" alt="yelpcamp" class="project-img">
+    <p class="project-description"> YelpCamp is a Yelp-like website for campsites written in HTML, CSS, and Javascript.
+      It allows users to log in and post, view, edit, and delete comments. MongoDB is used for the database to store
+      information about users and campsites. This website was created as part of Colt Steel's web development course of
+      Udemy.</p>
+    <a href="" class="btn btn-outline-primary btn-sm">View Code</a>
+  </div>
+
+  <div class="project-container">
+    <h2 class="project-h1 ">333gle</h2>
+    <img src="images/projects/333gle.png" alt="yelpcamp" class="project-img">
+    <p class="project-description">333gle is a file search shell written in C++. Users can enter a query containing
+      words to be searched, and the search shell outputs all the files with the given query with appropriate labels.
+      This website uses various self-made data structures and C++ file I/O to store and proccess information </p>
+    <a href="" class="btn btn-outline-primary btn-sm">View Code</a>
+  </div>
+
+  <div class="project-container">
+    <h2 class="project-h1 ">MNIST Image Classifier</h2>
+    <img src="images/projects/mnist.png" alt="yelpcamp" class="project-img">
+    <p class="project-description">This progam written in Python uses a ridge regression model using MSE loss and
+      regularization to
+      classify numbers in the MNIST data set. After trainer the model, it was able to reach an accuracy rate of over
+      85%.</p>
+    <a href="" class="btn btn-outline-primary btn-sm">View Code</a>
+  </div>
+
+  <div class="project-container">
+    <h2 class="project-h1 ">Linear Transformation Visualizer</h2>
+    <img src="images/projects/transformation.png" alt="yelpcamp" class="project-img">
+    <p class="project-description">Written using Java Swing GUI, this application is able to animate a coordinate plane
+      undergoing a linear transofrmation. The user simply enters the desired transformation and watches the
+      transformation.</p>
+    <a href="https://github.com/tianhg28/Random-Projects/tree/main/Matrix-Visualizer" class="btn btn-outline-primary btn-sm">View Code</a>
+  </div>
+
+  <div class="project-container">
+    <h2 class="project-h1 ">Matrix Calculator</h2>
+    <img src="images/projects/matrixcalculator.png" alt="yelpcamp" class="project-img">
+    <p class="project-description">This matrix calculator can perform the basic matrix operations on matrices of varying
+      dimensions. Java Swing is used, including efficient utilization of various elements such as JPanels, JButtons, and
+      JSPinners for an appearling user interface.</p>
+    <a href="https://github.com/tianhg28/Random-Projects/tree/main/Matrix%20Calculator" class="btn btn-outline-primary btn-sm">View Code</a>
+  </div>
+
+  <div class="project-container">
+    <h2 class="project-h1 ">Snake Game</h2>
+    <img src="images/projects/snake.png" alt="yelpcamp" class="project-img">
+    <p class="project-description">This game was programmed from scratch using the Graphics2D AWT to perform all the
+      animation and display graphics. You play this like a normal snake game. Nothing much to say really I guess.</p>
+    <a href="https://github.com/tianhg28/Random-Projects/tree/main/Snake%20Game" class="btn btn-outline-primary btn-sm">View Code</a>
+  </div>
+
+  <div class="project-container">
+    <h2 class="project-h1 ">Tic Tac Toe</h2>
+    <img src="images/projects/tictactoe.png" alt="yelpcamp" class="project-img">
+    <p class="project-description">Really old program I made a long time ago. Allows 1 and 2 players. Computer AI uses
+      the recursive minmax algorithm meaning it moves are always optimal. You can't beat it :(</p>
+    <a href="https://github.com/tianhg28/Random-Projects/tree/main/TicTacToe" class="btn btn-outline-primary btn-sm">View Code</a>
+  </div>
+
+  <div class="project-container">
+    <h2 class="project-h1 ">Word Finder</h2>
+    <img src="images/projects/wordfinder.png" alt="yelpcamp" class="project-img">
+    <p class="project-description">Program prompts the user for a series of letters, and then displays all possible
+      words that can be created using the given combination of the letters. Word displayed are organized based on number
+      of letters and shown on a JFrame using Java Swing. Can be used to cheat on word games.</p>
+    <a href="https://github.com/tianhg28/Random-Projects/tree/main/Word%20Finder" class="btn btn-outline-primary btn-sm">View Code</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+  <footer class="footer-container">
     <p>Gary Guo © 2022</p>
     <p>Design And Created By Gary Guo</p>
-  </footer> -->
+  </footer>
 </body>
 
 </html>
