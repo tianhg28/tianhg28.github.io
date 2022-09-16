@@ -59,10 +59,12 @@
 
 .about-img-container {
     width: 20%;
-    margin-right: 5%;
+    padding-right: 5%;
+    border-right: 1px solid #000000;
 }
 
 .about-h1 {
+    display: inline-block;
     border-bottom: 5px solid rgb(0, 118, 148);
 }
 
@@ -77,7 +79,6 @@
 }
 
 .about-text {
-    border-left: 1px solid #000000;
     width: 70%;
     padding-left: 5%;
     text-align: justify;
